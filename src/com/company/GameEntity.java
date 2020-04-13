@@ -3,6 +3,7 @@ package com.company;
 public class GameEntity {
     private int health;
     private int damage;
+    private String superAbility;
 
     public int getHealth() {
         return health;
@@ -12,6 +13,10 @@ public class GameEntity {
         return damage;
     }
 
+    public String getSuperAbility() {
+        return superAbility;
+    }
+
     public void setHealth(int health) {
         this.health = health;
     }
@@ -19,4 +24,12 @@ public class GameEntity {
     public void setDamage(int damage) {
         this.damage = damage;
     }
+
+    public void setSuperAbility(String superAbility) {
+        this.superAbility = superAbility;
+    }
 }
+
+
+
+

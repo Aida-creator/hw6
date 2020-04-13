@@ -1,13 +1,13 @@
 package com.company;
 
 public class Boss extends GameEntity {
-    private String Weapon;
+    private Weapon weapons;
 
-    public Boss (String Weapon); { this.Weapon = Weapon; }
 
-    public String getWeapon() { return Weapon; }
+    public Weapon getWeapons() { return weapons; }
 
-    public void setWeapon(String weapon) { Weapon = weapon; }
+    public void setWeapons (Weapon weapons) { this.weapons = weapons; }
 
-    public String info(Weapon) { }
-}
+
+    }
+

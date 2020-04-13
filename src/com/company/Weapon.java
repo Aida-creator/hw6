@@ -1,16 +1,24 @@
 package com.company;
 
 public class Weapon {
-    private String type;
-    private String name;
+    private String TypeWeapon;
+    private String NameWeapon;
 
-    public String getType() {
-        return type;
+    public String getTypeWeapon() {
+        return TypeWeapon;
     }
 
-    public String getName() {
-        return name;
+    public void setTypeWeapon(String typeWeapon) {
+        TypeWeapon = typeWeapon;
     }
 
+    public String getNameWeapon() {
+        return NameWeapon;
+    }
+
+    public void setNameWeapon(String nameWeapon) {
+        NameWeapon = nameWeapon;
+    }
 }
-}
+
+
